@@ -1,4 +1,4 @@
-package kredio;
+llpackage kredio;
 
 import java.text.DecimalFormat;
 import javax.swing.ImageIcon;
@@ -171,7 +171,7 @@ public class KrediOKredit extends javax.swing.JFrame {
 
             double boran = b / 100;  //faiz kimi girilen deyiseni edede cevirir
             double aoran = boran / 12; //ayliq faiz orani,istifade edilmir
-            double pmt0 = (abank * boran / 12);   //PMT=(a70*boran/12)/(1-(1+boran/12)^(-(c/12)*12))
+            double pmt0 = (abank * boran / 12);   //Excell funksiyasi PMT=(a70*boran/12)/(1-(1+boran/12)^(-(c/12)*12))
             double pmt1 = (1 + boran / 12);
             double pmt2 = (-(c / 12) * 12);
             double power = Math.pow(pmt1, pmt2);
