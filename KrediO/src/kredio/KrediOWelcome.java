@@ -18,10 +18,10 @@ public class KrediOWelcome extends javax.swing.JFrame {
 
         setExtendedState(JFrame.MAXIMIZED_HORIZ);
         setVisible(true);  
-        setResizable(false);
+        setResizable(false);  //ekran resizable
         setIconImage(new ImageIcon("img/icon.png").getImage());
 
-        jLabel1.setIcon(new ImageIcon("img/kredo.jpg"));
+        jLabel1.setIcon(new ImageIcon("img/kredo.jpg"));  
 
     }
 
